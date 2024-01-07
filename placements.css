@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #010101; */
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.navbar {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 28px;
+  padding-bottom: 24px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nst-logo{
+    height: 60px;
+}
+
+.navbar .logo i {
+  color: #0aa5ff;
+  font-size: 22px;
+}
+
+.navbar .logo a {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin-left: 12px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.menu-links {
+  display: flex;
+  gap: 2px;
+  padding-inline: 24px;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.15px;
+  color: #160042;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+.menu-links a {
+  font-weight: 500;
+  color: #160042;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+.menu-links a:hover {
+  color: #175cd3;
+  background-color: #f7f7ff;
+  transform: translateY(-1px);
+  border-radius: 5px;
+  border-bottom: #175cd3 solid;
+  transition: 0.3s;
+}
+
+.main{
+    color: #2f3191;
+    background: #ffe797;
+    font-family: "Instrument Sans", sans-serif;
+    font-family: 15px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.15px;
+    border-radius: 3px;
+}
+
+.log-in {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.328px;
+  text-align: center;
+  color: white;
+  font-family: "Instrument Sans", sans-serif;
+  letter-spacing: normal;
+  border-radius: 4px;
+  background: linear-gradient(94deg, rgba(255,255,255,1) 0%, rgba(33,54,140,1) 0%, rgba(97,28,221,1) 100%);
+  /* background-color: linear-gradient(90deg, rgba(65,44,179,1) 50%, rgba(120,55,228,1) 100%); */
+  border: 2px solid rgb(65,44,179);
+  height: 45px;
+  width: 90px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+
+}
+.log-in:hover {
+  background:#ffe797;
+  color: black;
+  border: 2px solid #ffe797;
+}
+
+.footer{
+  background-color: #f7f7ff;
+  padding-left: 80px;
+  padding-top: 64px;
+  padding-bottom: 44px;
+  
+}
+.footer{
+  background-color: #f7f7ff;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 64px;
+}
+
+.footer-logo{
+  height: 41px;
+  width: 140px;
+
+}
+
+.footer-links{
+  margin-left: 200px;
+  padding-top: 15px;
+  margin-right: 100px;
+}
+
+.footer-links a{
+  margin-right: 20px;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 16px;
+  line-height: 21.328px;
+  text-align: center;
+  color: #0d1117;
+}
+
+
+.box2{
+  color: #090f1d;
+  background-color: #e1fafc;
+  font-family:"Switzer variable", sans-serif ;
+  font-size: 16px;
+  line-height: 21.328px;
+  height: 40px;
+  width: 380px;
+  border-radius:5px ;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.pvt p{
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #667085;
+}
+
+.last{
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: start;
+  color: #667085;
+  background-color:#f7f7ff ;
+  padding-bottom: 10px;
+  border-top: 1px solid #C0C0C0;
+}
+
+
+.end{
+  background:#f7f7ff ;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7ff;
+  padding-top: 200px;
+
+}
+
+.place{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:14px;
+  line-height:24px ;
+  text-align:center ;
+  letter-spacing: 1.12px;
+  color:#003e74;
+}
+
+.first h2{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:48px;
+  line-height:57.6px ;
+  text-align:center ;
+  letter-spacing: -0.96px;
+  color:#003e74;
+  margin-top: -15px;
+}
+
+.first p{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:18px;
+  line-height:32px ;
+  text-align:center ;
+  letter-spacing: -0.36px;
+  color:#003e74;
+  margin-top: -15px;
+  font-weight: 400;
+}
+
+.boxes{
+  display: flex;
+  gap: 10px;
+}
+
+.box{
+  border: 1px solid black;
+  height: 118px;
+  width: 288px;
+  padding: 30px;
+  border-radius: 15px;
+  background: linear-gradient(94deg, rgba(3,64,125,1) 0%, rgba(20,88,199,1) 100%);
+  color: white;
+
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 22px;
+  line-height: 29.326px;
+  text-align: start;
+  font-weight: 200;
+}
+
+.first h4{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:30px;
+  line-height:36px ;
+  text-align:center ;
+  letter-spacing: -0.6px;
+  color: #003e74;
+}
+
+.image{
+  height: 335px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh; /* Adjust as needed */
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.iframe-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.iframe-container iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 3px 3px 0px 0px  #527A5A;
+}
+
+.second{
+  background-color: #f7f7ff;
+  padding-left: 72px;
+  padding-right: 72px;
+  margin-top: -20px;
+  padding-top: 100px;
+}
+
+.second h2{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:32px;
+  line-height:38.4px ;
+  text-align:center ;
+  letter-spacing: -0.64px;
+  color: #003e74;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.side{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 72px;
+  padding-bottom: 50px;
+}
+
+.im{
+  height: 350px;
+  margin-left: 60px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.side h2{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:48px;
+  line-height:57.6px ;
+  text-align:start ;
+  letter-spacing:-0.96px;
+  color: #003e74;
+  /* margin-left: -136px; */
+}
+
+.imagee{
+  margin-left: 150px;
+  height: 500px;
+}
+
+.four{
+  padding-left: 150px;
+  padding-top: 92px;
+  display: flex;
+  gap: 40px;
+}
+.box1{
+  border: 1px solid black;
+  border-radius: 12px;
+  height: 350px;
+  width: 550px;
+  padding-left: 41px;
+  padding-top: 41px;
+}
+
+.box1 img{
+  height: 40px;
+}
+
+.box1 h3{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:32px;
+  line-height:44.8px ;
+  text-align:start ;
+  letter-spacing:-0.64px;
+  color: #003e74;
+}
+
+.box1 p{
+  font-family: "Instrument Sans", sans-serif;
+  font-size:16px;
+  line-height:32px ;
+  text-align:start ;
+  letter-spacing:-0.32px;
+  color: #003e74;
+  margin-top: -20px;
+}
+
+.smallbox{
+  height: 72px;
+  width: 72px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #ffe797;
+  padding: 15px;
+}
+
+.four-boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 92px;
+}
+
